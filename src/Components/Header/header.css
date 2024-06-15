@@ -1,0 +1,31 @@
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1111;
+}
+
+.header-logo img {
+  width: 125px;
+  cursor: pointer;
+}
+
+.header-quick-links div {
+  box-shadow: 4px 4px 14px 0px #0000000f;
+  border: 1px solid #f2b304;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px;
+  padding-bottom: 0;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .header-wrapper {
+    height: 60px;
+  }
+}

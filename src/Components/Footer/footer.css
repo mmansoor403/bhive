@@ -1,0 +1,12 @@
+.footer-wrapper {
+  background-color: #222e34;
+}
+
+.footer-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #dddddd;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
